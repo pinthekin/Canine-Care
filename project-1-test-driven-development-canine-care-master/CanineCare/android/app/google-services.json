@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "49958894788",
+    "firebase_url": "https://caninecare-88e28.firebaseio.com",
+    "project_id": "caninecare-88e28",
+    "storage_bucket": "caninecare-88e28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49958894788:android:b34dafe47877933e559d91",
+        "android_client_info": {
+          "package_name": "com.caninecare.tshs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49958894788-3jdgshe4a7h59a814huoo8cnpl1mtsiq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXHwbyo5vFC_zizXjc6PDe1SUhCF-i_so"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49958894788-3jdgshe4a7h59a814huoo8cnpl1mtsiq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
