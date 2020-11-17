@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:instagram/services/auth.dart';
 
 class Register extends StatefulWidget {
+
+  final Function toggleView;
+  Register({ this.toggleView });
   @override
   _RegisterState createState() => _RegisterState();
 }
@@ -23,11 +26,13 @@ class _RegisterState extends State<Register> {
         backgroundColor: Colors.purple[400],
         elevation:0.0,
         title: Text('Sign up for CanineCare!'),
-        ctions: <Widget>[
+        actions: <Widget>[
           FlatButton.icon(
               icon: Icon(Icons.person),
-              label: Text('Register'),
-              onPressed: () {}
+              label: Text('Sign In'),
+              onPressed: () {
+                widget.toggleView();
+              }
           )
         ],
       ),
