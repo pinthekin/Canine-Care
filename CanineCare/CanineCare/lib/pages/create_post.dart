@@ -14,7 +14,7 @@ class _CreatePostPageState extends State<CreatePostPage> {
   @override
   Widget build(BuildContext context) {
       return Scaffold(
-          appBar: AppBar(title: Text('Profile')),
+          appBar: AppBar(title: Text('New Data Input')),
           body: Container(
               padding:
               const EdgeInsets.symmetric(vertical: 16.0, horizontal: 16.0),
@@ -26,7 +26,7 @@ class _CreatePostPageState extends State<CreatePostPage> {
                           children: [
                             TextFormField(
                               decoration:
-                              InputDecoration(labelText: 'First name'),
+                              InputDecoration(labelText: 'Dog Age'),
                               validator: (value) {
                                 if (value.isEmpty) {
                                   return 'Please enter your dog\'s name';

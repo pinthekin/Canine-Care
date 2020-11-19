@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:instagram/models/userid.dart';
+import 'package:instagram/pages/home.dart';
 import 'package:instagram/pages/wrapper.dart';
 import 'package:instagram/services/auth.dart';
 import 'pages/photoscroll.dart';
@@ -35,7 +36,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   List<Widget> pages = [
-    HomePage(),
+    RealHomePage(),
     CreatePostPage(),
     ProfilePage()
   ];

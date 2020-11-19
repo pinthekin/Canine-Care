@@ -11,12 +11,12 @@ import 'package:instagram/services/database.dart';
 import 'package:provider/provider.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-class HomePage extends StatefulWidget {
+class RealHomePage extends StatefulWidget {
   @override
-  _HomePageState createState() => _HomePageState();
+  _RealHomePageState createState() => _RealHomePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _RealHomePageState extends State<RealHomePage> {
   final AuthService _auth = AuthService();
   static int page = 1;
   static Post the_post = post1;
@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
       value: DatabaseService().users,
       child: Scaffold(
         appBar: AppBar(
-          title: Text("CanineCare", style: textStyleBold),
+          title: Text("Canine Care", style: textStyleBold),
           backgroundColor: Colors.purple[100],
           elevation: 0.0,
           actions: <Widget> [
