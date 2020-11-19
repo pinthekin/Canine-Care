@@ -9,21 +9,26 @@ class ProfilePage extends StatefulWidget {
 class _ProfilePageState extends State<ProfilePage> {
   @override
   Widget build(BuildContext context) {
-    return Neumorphic(margin: EdgeInsets.symmetric(horizontal: 4),
-        style: NeumorphicStyle(
-          boxShape: NeumorphicBoxShape.roundRect(BorderRadius.circular(8)),
-        ),
-        child: Neumorphic(
-          style: NeumorphicStyle(
-            depth: -1,
-            oppositeShadowLightSource: true,
+    return Scaffold(
+      backgroundColor: Colors.pink[100],
+      appBar: AppBar(title: Text('Health')),
+      body: Container(
+          padding: EdgeInsets.symmetric(vertical: 40.0, horizontal:160.0),
+        child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget> [
+              SizedBox(height: 140.0),
+              RaisedButton(
+                child: Text(
+                  'Reports',
+                  style: TextStyle(color: Colors.white),
+                ),
+                color: Colors.purple,
+              ),
+            ]
           ),
-          padding: EdgeInsets.all(2),
-          child: SizedBox(
-            width: 40,
-            height: 60,
-          )
-        )
+
+      ),
     );
   }
 }

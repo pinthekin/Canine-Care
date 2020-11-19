@@ -1,4 +1,4 @@
-#Wed Nov 18 22:38:32 PST 2020
+#Thu Nov 19 00:16:19 PST 2020
 base.2=C\:\\Users\\pinak\\AndroidStudioProjects\\wackydoggy\\CanineCare\\CanineCare\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\15
 base.1=C\:\\Users\\pinak\\AndroidStudioProjects\\wackydoggy\\CanineCare\\CanineCare\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\4
 base.0=C\:\\Users\\pinak\\AndroidStudioProjects\\wackydoggy\\CanineCare\\CanineCare\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\8
