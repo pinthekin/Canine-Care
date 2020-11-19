@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">49958894788-3jdgshe4a7h59a814huoo8cnpl1mtsiq.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://caninecare-88e28.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">49958894788</string>
+    <string name="google_api_key" translatable="false">AIzaSyAXHwbyo5vFC_zizXjc6PDe1SUhCF-i_so</string>
+    <string name="google_app_id" translatable="false">1:49958894788:android:b34dafe47877933e559d91</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAXHwbyo5vFC_zizXjc6PDe1SUhCF-i_so</string>
+    <string name="google_storage_bucket" translatable="false">caninecare-88e28.appspot.com</string>
+    <string name="project_id" translatable="false">caninecare-88e28</string>
+</resources>
