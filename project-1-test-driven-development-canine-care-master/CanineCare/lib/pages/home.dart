@@ -30,7 +30,7 @@ class _HomePageState extends State<HomePage> {
 
   Widget getMain() {
     return StreamProvider<QuerySnapshot>.value(
-      value: DatabaseService().dogInfo,
+      value: DatabaseService().users,
       child: Scaffold(
         appBar: AppBar(
           title: Text("CanineCare", style: textStyleBold),
