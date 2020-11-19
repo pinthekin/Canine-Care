@@ -33,8 +33,8 @@ class _RealHomePageState extends State<RealHomePage> {
       value: DatabaseService().users,
       child: Scaffold(
         appBar: AppBar(
-          title: Text("Canine Care", style: textStyleBold),
-          backgroundColor: Colors.purple[100],
+          title: Text("Canine Care"),
+          backgroundColor: Colors.purple[400],
           elevation: 0.0,
           actions: <Widget> [
               FlatButton.icon(
